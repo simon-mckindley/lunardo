@@ -628,7 +628,7 @@ function ticket_module()    /// Ticket module - Receipt
         echo "\t<span id='director' class='details'>Director: {$movieObj->synop['director']}</span>\n";
         echo "\t<span id='session' class='details'>$receiptSession</span>\n";
         echo "\t<span id='type' class='details'>{$seatText[$code]}<br>($i) \${$price}</span>\n";
-        echo "\t<img id='back' src='../../media/ticket.png' alt='ticket' />\n";
+        echo "\t<img id='back' src='./media/ticket.png' alt='ticket' />\n";
         echo "</div>\n";
       }
     }

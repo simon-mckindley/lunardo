@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Halant&display=swap');
+
+body{
+    display: grid;
+    justify-items: center;
+    margin: 0px;
+    font-family: 'Halant', serif;
+    font-size: 1.2em;
+    background-color: aliceblue;
+}
+
+section{
+    break-after: page;
+    padding: 0px 2% 5em;
+}
+
+span{
+    display: inline-block;
+}
+
+#main{
+    position: relative;
+    width: 740px;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px, -2px -2px 5px;
+}
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+header #title{
+    display: flex;
+    align-items: center;
+}
+header img{
+    display: none;
+}
+header h1 {
+    margin: 0.3em 0px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 350%;
+}
+header span{
+    margin-right: 0.5em;
+}
+#contacts{
+    margin-left: 0.5em;
+}
+header #date{
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    font-style: oblique; 
+}
+header button{
+    position: fixed;
+    top: 3em;
+    right: 10%;
+    z-index: 5;
+    padding: 0.3em;
+    font-size: 1em;
+    background-color: rgba(100, 148, 237, 0.3);
+    border-radius: 5px;
+}
+header button:hover{
+    background-color: rgba(100, 148, 237, 0.8);
+}
+
+/* Receipt */
+#receipt div{
+    margin: 0em 0em 0.5em 1em;
+}
+
+/* Heading */
+#receipt span.label{
+    margin-top: 0.1em;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 0px 0.4em;
+    border-radius: 6px;
+    text-decoration: underline;
+}
+#receipt span.data{
+    font-style: italic;
+    margin: 0em 1em 0em 0.2em;
+}
+
+/* Table */
+table{
+    justify-self: center;
+    border-collapse: collapse;
+    max-width: 800px;
+    width: 90%;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 0em 0.3em;
+}
+td.blank, th.right{
+    border-bottom: hidden;
+    border-left: hidden;
+}
+th.right, td.right{
+    text-align: right;   
+}
+td.right{
+    padding-right: 5%;
+}
+td.center{
+    text-align: center;
+}
+
+/* Tickets */
+#tickets h2{
+    margin-bottom: 0;
+}
+#outer{ 
+    position: relative;
+    break-inside: avoid;
+    display: grid;
+    grid-template-columns: 183px 183px 183px;
+    grid-template-rows: 74px 74px 74px;
+    grid-template-areas:
+        "ttl ttl ttl"
+        "dir dir rat"
+        "typ ses ses";
+    padding: 60px 0px 30px 40px;
+}
+#outer img#back{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    max-width: 690px;
+}
+#outer span.details, img.details{
+    z-index: 2;
+    font-weight: bold;
+    justify-self: center;
+    text-shadow: 0.5px 0.5px white, -0.5px -0.5px white, 0.5px -0.5px white, -0.5px 0.5px white;
+}
+#outer #title{
+    grid-area: ttl;
+    font-size: 2.4em;
+    font-style: italic;
+}
+#outer #rating{
+    grid-area: rat;
+    height: 2em;
+}
+#outer #director{
+    grid-area: dir;
+    font-size: 1.5em;
+}
+#outer #session{
+    grid-area: ses;
+    font-size: 1.8em;
+}
+#outer #type{
+    grid-area: typ;
+}
+
+@media (min-width: 500px){ /* Medium screen size */
+    header img{
+        display: flex;
+        margin-right: 2%;
+        height: 90px;
+        transform: rotate(-10deg);
+    }
+}
+
+@media print {
+    header button, #debug, #myCode{
+        display: none;
+    }
+    #main{
+        margin-top: 0.5em;
+        border: none;
+        box-shadow: none;
+    }
+}

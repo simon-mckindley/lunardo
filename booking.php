@@ -115,8 +115,6 @@ nav_module("booking");
 
 <?php
 end_module();
-debug_module();
-printMyCode();
 ?>
 
 </body>

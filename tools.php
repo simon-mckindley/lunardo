@@ -255,15 +255,11 @@ function top_module($title, $onload = "")   /// Top Module - common
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="author" content="Simon Mckindley">
       <meta name="description" content="Assignment 3 for Web Programming">
-      <meta http-equiv="X-Frame-Options" content="deny">
       <title>$title</title>
       <link rel="icon" href='./media/LunardoLogo.png' type="image/x-icon">
 
-      <!-- Keep wireframe.css for debugging, add your css to style.css a-->
-      <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
       <link id='stylecss' type="text/css" rel="stylesheet" href='$styles?t=<?= filemtime("style.css"); ?>'>
-      <script type="text/javascript" src="script.js"></script>
-      <script src='../wireframe.js'></script>
+      <script type="text/javascript" src="./script.js" defer></script>
 OUTPUT;
 
   if ($title == "Lunardo Booking") {
@@ -327,7 +323,7 @@ function end_module()    /// End module - common
           <script>
               document.write(new Date().getFullYear());
           </script>
-          Simon Mckindley S9406133. Last modified 
+          Simon Mckindley. Last modified 
 OUTPUT;
 
   echo date('d F Y H:i', filemtime($_SERVER['SCRIPT_FILENAME']));
@@ -336,7 +332,6 @@ OUTPUT;
 .</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming
           course at RMIT University in Melbourne, Australia.</div>
-      <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
   </footer>
 
 NEWPUT;

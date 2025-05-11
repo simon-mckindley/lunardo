@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Halant&display=swap');
 
-/* Credit to https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 */
-
 html {
     scroll-behavior: smooth;
     --main-color: rgb(43, 23, 116);

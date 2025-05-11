@@ -86,11 +86,6 @@ top_module("Booking Receipt");
         </section>
     </div>
 
-    <?php
-    debug_module();
-    printMyCode();
-    ?>
-
 </body>
 
 </html>

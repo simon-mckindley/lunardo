@@ -84,8 +84,6 @@ nav_module("index");
 
 <?php
 end_module();
-debug_module();
-printMyCode();
 ?>
 
 </body>

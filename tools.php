@@ -258,8 +258,8 @@ function top_module($title, $onload = "")   /// Top Module - common
       <title>$title</title>
       <link rel="icon" href='./media/LunardoLogo.png' type="image/x-icon">
 
-      <link id='stylecss' type="text/css" rel="stylesheet" href='$styles?t=<?= filemtime("style.css"); ?>'>
-      <script type="text/javascript" src="./script.js" defer></script>
+      <link id='stylecss' type="text/css" rel="stylesheet" href='$styles'>
+      <script type="text/javascript" src="script.js"></script>
 OUTPUT;
 
   if ($title == "Lunardo Booking") {

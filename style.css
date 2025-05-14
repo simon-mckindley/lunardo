@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     font-family: 'Halant', serif;
     font-size: 120%;
-    max-width: 1800px;
+    max-width: 1200px;
 }
 
 main {
@@ -188,6 +188,11 @@ body .button:hover, body .button:active, body .button:focus {
 
 #about-us a {
     text-decoration: none;
+}
+
+figure {
+    margin-inline: auto;
+    text-align: center;
 }
 
 /* Now Showing Section*/

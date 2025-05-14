@@ -1,0 +1,127 @@
+{
+    "ACT": {
+        "code": "ACT",
+        "title": "Dune",
+        "rating": "M",
+        "synop": {
+            "short": "A mythic and emotionally charged hero's journey, \"Dune\" tells the story of Paul Atreides,\n  a gifted young man born into a great destiny beyond his understanding, who must travel to the \n  most dangerous planet in the universe to ensure the future of his family and his people.",
+            "long": "A mythic and emotionally charged hero's journey, \"Dune\" tells the story of Paul Atreides,\n  a brilliant and gifted young man born into a great destiny beyond his understanding,\n  who must travel to the most dangerous planet in the universe to ensure the future of his family and his people.\n  As malevolent forces explode into conflict over the planet's exclusive supply of the most precious\n  resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who\n  can conquer their fear will survive.",
+            "director": "Denis Villeneuve",
+            "stars": "Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin, Stellan Skarsgård, Dave Bautista,\n  Stephen McKinley Henderson, Zendaya, Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling, Jason Momoa, Javier Bardem"
+        },
+        "preview": "https://www.youtube.com/embed/8g18jFHCLXk",
+        "sessionsText": "Mon - Tue: 9pm<br>Wed - Fri: 9pm<br>Sat - Sun: 6pm",
+        "sessions": {
+            "MON": "9pm",
+            "TUE": "9pm",
+            "WED": "9pm",
+            "THU": "9pm",
+            "FRI": "9pm",
+            "SAT": "6pm",
+            "SUN": "6pm"
+        }
+    },
+    "RMC": {
+        "code": "RMC",
+        "title": "Cyrano",
+        "rating": "M",
+        "synop": {
+            "short": "A man ahead of his time, Cyrano de Bergerac dazzles whether with ferocious wordplay\n  at a verbal joust or with brilliant swordplay in a duel. But, convinced that his appearance\n  renders him unworthy of the love of a devoted friend, the luminous Roxanne, Cyrano has yet\n  to declare his feelings for her and Roxanne has fallen in love with Christian.",
+            "long": "A man ahead of his time, Cyrano de Bergerac dazzles whether with ferocious wordplay \n  at a verbal joust or with brilliant swordplay in a duel. But, convinced that his appearance \n  renders him unworthy of the love of a devoted friend, the luminous Roxanne, Cyrano has yet \n  to declare his feelings for her and Roxanne has fallen in love, at first sight, with Christian.",
+            "director": "Joe Wright",
+            "stars": "Peter Dinklage, Haley Bennett, Kelvin Harrison Jr., Ben Mendelsohn, Monica Dolan, Bashir Salahuddin"
+        },
+        "preview": "https://www.youtube.com/embed/5e8apSFDXsQ",
+        "sessionsText": "Mon - Tue: 6pm<br>Wed - Fri: ---<br>Sat - Sun: 3pm",
+        "sessions": {
+            "MON": "6pm",
+            "TUE": "6pm",
+            "SAT": "3pm",
+            "SUN": "3pm"
+        }
+    },
+    "FAM": {
+        "code": "FAM",
+        "title": "Spider-Man: No Way Home",
+        "rating": "M",
+        "synop": {
+            "short": "Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to\n  Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and brings\n  in monstrous villains that could destroy the world.",
+            "long": "Picking up where Far From Home left off, Peter Parker's whole world is turned upside down when his \n  old enemy Mysterio posthumously reveals his identity to the public. Wanting to make his identity a secret, \n  Peter turns to Doctor Strange for help. But when Strange's spell goes haywire, Peter must go up against \n  five deadly new enemies--the Green Goblin, Dr. Octopus, Electro, the Lizard and Sandman--all while \n  discovering what it truly means to be Spider-Man.",
+            "director": "Jon Watts",
+            "stars": "Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon, Jon Favreau, Jamie Foxx, Willem Dafoe, \n  Alfred Molina, Benedict Wong"
+        },
+        "preview": "https://www.youtube.com/embed/JfVOs4VSpmA",
+        "sessionsText": "Mon - Tues: 12pm<br>Wed - Fri: 6pm<br>Sat - Sun: 12pm",
+        "sessions": {
+            "MON": "12pm",
+            "TUE": "12pm",
+            "WED": "6pm",
+            "THU": "6pm",
+            "FRI": "6pm",
+            "SAT": "12pm",
+            "SUN": "12pm"
+        }
+    },
+    "AHF": {
+        "code": "AHF",
+        "title": "Silent Night",
+        "rating": "M",
+        "synop": {
+            "short": "Nell, Simon and their son Art host a yearly Christmas dinner at their country estate for their\n  former school friends and their spouses. It is gradually revealed that there is an imminent environmental\n  catastrophe and that this dinner will be their last night alive.",
+            "long": "Nell, Simon and their son Art host a yearly Christmas dinner at their country estate for their\n  former school friends and their spouses. It is gradually revealed that there is an imminent environmental\n  catastrophe and that this dinner will be their last night alive.",
+            "director": "Camille Griffin",
+            "stars": "Keira Knightley, Matthew Goode, Roman Griffin Davis, Annabelle Wallis, Lily-Rose Depp, Sope Dirisu, Kirby Howell-Baptiste"
+        },
+        "preview": "https://www.youtube.com/embed/ras0H9GEz5I",
+        "sessionsText": "Mon - Tue: ---<br>Wed - Fri: 12pm<br>Sat - Sun: 9pm",
+        "sessions": {
+            "WED": "12pm",
+            "THU": "12pm",
+            "FRI": "12pm",
+            "SAT": "9pm",
+            "SUN": "9pm"
+        }
+    },
+    "SCI": {
+        "code": "SCI",
+        "title": "Moonfall",
+        "rating": "M",
+        "synop": {
+            "short": "A mysterious force knocks the Moon from its orbit and sends it hurtling toward Earth, unleashing chaos.",
+            "long": "In Moonfall, a mysterious force knocks the Moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it. With mere weeks before impact, NASA executive Jo Fowler teams up with a former astronaut and a conspiracy theorist to save humanity and uncover the truth behind the Moon’s origins.",
+            "director": "Roland Emmerich",
+            "stars": "Halle Berry, Patrick Wilson, John Bradley, Michael Peña, Charlie Plummer, Donald Sutherland"
+        },
+        "preview": "https://www.youtube.com/embed/ivIwdQBlS10",
+        "sessionsText": "Mon - Tue: 3pm<br>Wed - Fri: 9pm<br>Sat - Sun: 6pm",
+        "sessions": {
+            "MON": "3pm",
+            "TUE": "3pm",
+            "WED": "9pm",
+            "THU": "9pm",
+            "FRI": "9pm",
+            "SAT": "6pm",
+            "SUN": "6pm"
+        }
+    },
+    "KID": {
+        "code": "KID",
+        "title": "PAW Patrol: The Movie",
+        "rating": "G",
+        "synop": {
+            "short": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into chaos.",
+            "long": "When their biggest rival, Mayor Humdinger, becomes mayor of nearby Adventure City and starts wreaking havoc, Ryder and everyone’s favorite heroic pups kick into high gear to face the challenge. As one pup must confront his past in the city, the team finds help from a new ally and together, they fight to save the citizens of Adventure City.",
+            "director": "Cal Brunker",
+            "stars": "Iain Armitage, Marsai Martin, Ron Pardo, Yara Shahidi, Kim Kardashian, Randall Park, Dax Shepard, Tyler Perry, Jimmy Kimmel"
+        },
+        "preview": "https://www.youtube.com/embed/LRMTr2VZcr8",
+        "sessionsText": "Wed - Fri: 10am<br>Sat - Sun: 11am",
+        "sessions": {
+            "WED": "10am",
+            "THU": "10am",
+            "FRI": "10am",
+            "SAT": "11am",
+            "SUN": "11am"
+        }
+    }
+}

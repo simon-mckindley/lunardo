@@ -45,135 +45,25 @@ class movie
   }
 }
 
-$movieList = [
-  "ACT" => new movie(
-    "ACT",
-    "Dune",
-    "M",
-    [
-      "short" => "A mythic and emotionally charged hero's journey, \"Dune\" tells the story of Paul Atreides,
-  a gifted young man born into a great destiny beyond his understanding, who must travel to the 
-  most dangerous planet in the universe to ensure the future of his family and his people.",
-      "long" => "A mythic and emotionally charged hero's journey, \"Dune\" tells the story of Paul Atreides,
-  a brilliant and gifted young man born into a great destiny beyond his understanding,
-  who must travel to the most dangerous planet in the universe to ensure the future of his family and his people.
-  As malevolent forces explode into conflict over the planet's exclusive supply of the most precious
-  resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who
-  can conquer their fear will survive.",
-      "director" => "Denis Villeneuve",
-      "stars" => "Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin, Stellan Skarsgård, Dave Bautista,
-  Stephen McKinley Henderson, Zendaya, Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling, Jason Momoa, Javier Bardem"
-    ],
-    "https://www.youtube.com/embed/8g18jFHCLXk",
-    "Mon - Tue: 9pm<br>Wed - Fri: 9pm<br>Sat - Sun: 6pm",
-    [
-      "MON" => "9pm",
-      "TUE" => "9pm",
-      "WED" => "9pm",
-      "THU" => "9pm",
-      "FRI" => "9pm",
-      "SAT" => "6pm",
-      "SUN" => "6pm"
-    ]
-  ),
-  "RMC" => new movie(
-    "RMC",
-    "Cyrano",
-    "M",
-    [
-      "short" => "A man ahead of his time, Cyrano de Bergerac dazzles whether with ferocious wordplay
-  at a verbal joust or with brilliant swordplay in a duel. But, convinced that his appearance
-  renders him unworthy of the love of a devoted friend, the luminous Roxanne, Cyrano has yet
-  to declare his feelings for her and Roxanne has fallen in love with Christian.",
-      "long" => "A man ahead of his time, Cyrano de Bergerac dazzles whether with ferocious wordplay 
-  at a verbal joust or with brilliant swordplay in a duel. But, convinced that his appearance 
-  renders him unworthy of the love of a devoted friend, the luminous Roxanne, Cyrano has yet 
-  to declare his feelings for her and Roxanne has fallen in love, at first sight, with Christian.",
-      "director" => "Joe Wright",
-      "stars" => "Peter Dinklage, Haley Bennett, Kelvin Harrison Jr., Ben Mendelsohn, Monica Dolan, Bashir Salahuddin"
-    ],
-    "https://www.youtube.com/embed/5e8apSFDXsQ",
-    "Mon - Tue: 6pm<br>Wed - Fri: ---<br>Sat - Sun: 3pm",
-    [
-      "MON" => "6pm",
-      "TUE" => "6pm",
-      "SAT" => "3pm",
-      "SUN" => "3pm"
-    ]
-  ),
-  "FAM" => new movie(
-    "FAM",
-    "Spider-Man: No Way Home",
-    "M",
-    [
-      "short" => "Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to
-  Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and brings
-  in monstrous villains that could destroy the world.",
-      "long" => "Picking up where Far From Home left off, Peter Parker's whole world is turned upside down when his 
-  old enemy Mysterio posthumously reveals his identity to the public. Wanting to make his identity a secret, 
-  Peter turns to Doctor Strange for help. But when Strange's spell goes haywire, Peter must go up against 
-  five deadly new enemies--the Green Goblin, Dr. Octopus, Electro, the Lizard and Sandman--all while 
-  discovering what it truly means to be Spider-Man.",
-      "director" => "Jon Watts",
-      "stars" => "Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon, Jon Favreau, Jamie Foxx, Willem Dafoe, 
-  Alfred Molina, Benedict Wong"
-    ],
-    "https://www.youtube.com/embed/JfVOs4VSpmA",
-    "Mon - Tues: 12pm<br>Wed - Fri: 6pm<br>Sat - Sun: 12pm",
-    [
-      "MON" => "12pm",
-      "TUE" => "12pm",
-      "WED" => "6pm",
-      "THU" => "6pm",
-      "FRI" => "6pm",
-      "SAT" => "12pm",
-      "SUN" => "12pm"
-    ]
-  ),
-  "AHF" => new movie(
-    "AHF",
-    "Silent Night",
-    "M",
-    [
-      "short" => "Nell, Simon and their son Art host a yearly Christmas dinner at their country estate for their
-  former school friends and their spouses. It is gradually revealed that there is an imminent environmental
-  catastrophe and that this dinner will be their last night alive.",
-      "long" => "Nell, Simon and their son Art host a yearly Christmas dinner at their country estate for their
-  former school friends and their spouses. It is gradually revealed that there is an imminent environmental
-  catastrophe and that this dinner will be their last night alive.",
-      "director" => "Camille Griffin",
-      "stars" => "Keira Knightley, Matthew Goode, Roman Griffin Davis, Annabelle Wallis, Lily-Rose Depp, Sope Dirisu, Kirby Howell-Baptiste"
-    ],
-    "https://www.youtube.com/embed/ras0H9GEz5I",
-    "Mon - Tue: ---<br>Wed - Fri: 12pm<br>Sat - Sun: 9pm",
-    [
-      "WED" => "12pm",
-      "THU" => "12pm",
-      "FRI" => "12pm",
-      "SAT" => "9pm",
-      "SUN" => "9pm"
-    ]
-  )
-];
 
-$seat_prices = [
-  "fullprice" => [
-    "STA" => 20.5,
-    "STP" => 18.0,
-    "STC" => 16.5,
-    "FCA" => 30.0,
-    "FCP" => 27.0,
-    "FCC" => 24.0,
-  ],
-  "discounted" => [
-    "STA" => 15.0,
-    "STP" => 13.5,
-    "STC" => 12.0,
-    "FCA" => 24.0,
-    "FCP" => 22.5,
-    "FCC" => 21.0,
-  ]
-];
+// Get movies and seat prices data from json files
+$moviesData = json_decode(file_get_contents('./data/movies.json'), true);
+
+$movieList = [];
+foreach ($moviesData as $code => $data) {
+  $movieList[$code] = new movie(
+    $data['code'],
+    $data['title'],
+    $data['rating'],
+    $data['synop'],
+    $data['preview'],
+    $data['sessionsText'],
+    $data['sessions']
+  );
+}
+
+$seat_prices = json_decode(file_get_contents('./data/seat_prices.json'), true);
+
 
 $seatText = [
   "STA" => "Standard Adult",
